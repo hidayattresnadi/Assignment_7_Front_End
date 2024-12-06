@@ -1,0 +1,32 @@
+.bg-header {
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+    border-radius: 15px;
+}
+
+p {
+    z-index: 1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.nav-links {
+    z-index: 2; /* Ensure links are on top */
+}
+
+.text-light {
+    color: #f8f9fa;
+}

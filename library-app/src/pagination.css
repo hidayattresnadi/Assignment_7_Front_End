@@ -1,0 +1,57 @@
+/* Styling untuk container pagination */
+.react-paginate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+}
+
+/* Styling untuk tombol Previous dan Next */
+.react-paginate__previous,
+.react-paginate__next {
+    padding: 10px 20px;
+    background-color: gray; /* Warna hijau untuk Previous dan Next */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.react-paginate__previous:hover,
+.react-paginate__next:hover {
+    background-color: #45a049; /* Warna hijau lebih gelap saat hover */
+}
+
+/* Styling untuk halaman aktif */
+.react-paginate__item--active a {
+    background-color: #FF6347; /* Warna merah untuk halaman aktif */
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* Styling untuk halaman biasa */
+.react-paginate__item a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #007bff; /* Warna biru untuk halaman biasa */
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.react-paginate__item a:hover {
+    background-color: #f1f1f1; /* Warna abu-abu terang saat hover */
+    border-color: #007bff; /* Border biru terang saat hover */
+}
+
+/* Styling untuk break label (...) */
+.react-paginate__break {
+    padding: 10px 20px;
+    color: #888;
+    font-weight: bold;
+}

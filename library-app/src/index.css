@@ -1,0 +1,9 @@
+.page-link:focus {
+    outline: none; /* Menghilangkan border fokus */
+    box-shadow: none; /* Menghapus efek bayangan */
+}
+
+.not-clickable {
+    pointer-events: none; 
+    cursor: default;
+  }
